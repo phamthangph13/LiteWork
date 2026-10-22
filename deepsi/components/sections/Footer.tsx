@@ -86,6 +86,19 @@ export default function Footer() {
               <Phone size={14} aria-hidden />
               <span className="tracking-wide">{brand.phone}</span>
             </a>
+            <a
+              href={brand.fanpage}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cursor
+              className="group inline-flex items-center gap-2 rounded-full border hairline bg-surface px-5 py-3 text-[13.5px] font-medium transition-colors hover:border-accent hover:text-accent"
+            >
+              <svg viewBox="0 0 16 16" className="size-3.5" fill="currentColor" aria-hidden>
+                <path d="M10.6 2.5H9.3c-1.5 0-2.4 1-2.4 2.6v1.8H5.4v2.5h1.5v4.1h2.6V9.4h2l.4-2.5H9.5V5.4c0-.4.2-.6.6-.6h1.1z" />
+              </svg>
+              <span className="tracking-wide">Fanpage trên Facebook</span>
+              <ArrowUpRight size={14} className="shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </a>
             <div className="mt-1 flex items-center gap-2 md:justify-end">
               <span className="font-mono text-[9.5px] uppercase tracking-[0.16em] text-ink-soft">Chia sẻ</span>
               {[

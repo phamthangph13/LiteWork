@@ -10,6 +10,7 @@ export const brand = {
   legalNote:
     "DeepSI là thương hiệu do cá nhân sáng lập và vận hành.",
   email: "winnieph13@gmail.com",
+  fanpage: "https://www.facebook.com/deepsi.vn/",
   phone: "0966 638 105",
   phoneHref: "tel:+84966638105",
 };

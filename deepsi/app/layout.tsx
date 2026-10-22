@@ -75,6 +75,7 @@ const jsonLd = {
       url: SITE_URL,
       logo: `${SITE_URL}/logo.svg`,
       description: DESCRIPTION,
+      sameAs: [brand.fanpage],
       email: brand.email,
       telephone: "+84966638105",
       areaServed: { "@type": "Country", name: "Việt Nam" },

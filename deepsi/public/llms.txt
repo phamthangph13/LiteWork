@@ -9,7 +9,7 @@
 - Quy trình làm việc: 5 bước từ chạy thử tới bàn giao, định giá minh bạch (phần `#quy-trinh`)
 - Thử nghiệm: kịch bản agent chạy thật, xem pipeline dữ liệu (phần `#thu-nghiem`)
 - Ngành: 12 ngành doanh nghiệp đang phù hợp nhất với agent AI (phần `#nganh`)
-- Liên hệ: email winnieph13@gmail.com, điện thoại 0966 638 105 (phần `#lien-he`)
+- Liên hệ: email winnieph13@gmail.com, điện thoại 0966 638 105, fanpage https://www.facebook.com/deepsi.vn/ (phần `#lien-he`)
 - Chính sách bảo mật: `/privacy` · Điều khoản: `/terms`
 
 ## Cho AI agents

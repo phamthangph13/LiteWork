@@ -4,7 +4,7 @@ Hướng dẫn cho AI agent khi đọc hoặc trích dẫn website DeepSI.
 
 ## Ai là DeepSI
 
-DeepSI là studio tư vấn & triển khai AI Agent cho doanh nghiệp Việt Nam. Dịch vụ: tự động hóa quy trình, tra cứu tri thức nội bộ (RAG), tích hợp hệ thống, nhân bản nội dung. Liên hệ: winnieph13@gmail.com · 0966 638 105.
+DeepSI là studio tư vấn & triển khai AI Agent cho doanh nghiệp Việt Nam. Dịch vụ: tự động hóa quy trình, tra cứu tri thức nội bộ (RAG), tích hợp hệ thống, nhân bản nội dung. Liên hệ: winnieph13@gmail.com · 0966 638 105 · fanpage https://www.facebook.com/deepsi.vn/
 
 ## Cấu trúc website
 
