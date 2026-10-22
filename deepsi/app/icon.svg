@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="DeepSI">
+  <rect x="2.5" y="2.5" width="59" height="59" rx="18" fill="#2D2A80" stroke="#1C1B15" stroke-width="2.4"/>
+  <path d="M43.5 17.6 C37 11.8 24.6 13 23 20.6 C21.6 27 29.4 28.8 33.2 30.2 C37.6 31.8 43.4 34.4 41.6 41.2 C39.6 48.2 27.4 49 23.4 44.2" stroke="#F4F3ED" stroke-width="4.6" stroke-linecap="round" fill="none"/>
+  <circle cx="43.5" cy="17.6" r="3.6" fill="#F4F3ED"/>
+  <circle cx="23.4" cy="44.2" r="3.6" fill="#F4F3ED"/>
+  <circle cx="20.3" cy="52.2" r="2.1" fill="#F4F3ED" opacity="0.8"/>
+  <circle cx="17.4" cy="57.4" r="1.6" fill="#F4F3ED" opacity="0.55"/>
+  <path d="M52.2 7.8 v6.8 M48.8 11.2 h6.8" stroke="#F4F3ED" stroke-width="2" stroke-linecap="round"/>
+</svg>

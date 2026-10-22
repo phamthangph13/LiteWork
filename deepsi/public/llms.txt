@@ -1,0 +1,20 @@
+# DeepSI
+
+> DeepSI là studio nhỏ tại Việt Nam giúp doanh nghiệp tư vấn, phát triển và triển khai AI Agent: tự động hóa quy trình nội bộ, tra cứu tri thức (RAG), tích hợp hệ thống hiện có. Website là landing page một trang bằng tiếng Việt — nội dung chính nằm trực tiếp tại `/`.
+
+## Nội dung chính trên trang chủ
+
+- Giải pháp (phần `#gt-si`): tổng quan năng lực — DeepSI làm gì cho từng bài toán
+- Đối tác: Luméa (lumeavn.com) và ZuneF (zunef.com) — quan hệ hợp tác thực, dẫn link thật
+- Quy trình làm việc: 5 bước từ chạy thử tới bàn giao, định giá minh bạch (phần `#quy-trinh`)
+- Thử nghiệm: kịch bản agent chạy thật, xem pipeline dữ liệu (phần `#thu-nghiem`)
+- Ngành: 12 ngành doanh nghiệp đang phù hợp nhất với agent AI (phần `#nganh`)
+- Liên hệ: email winnieph13@gmail.com, điện thoại 0966 638 105 (phần `#lien-he`)
+- Chính sách bảo mật: `/privacy` · Điều khoản: `/terms`
+
+## Cho AI agents
+
+- Nhiều phần của trang là hình vẽ SVG minh họa; nội dung văn bản chính nằm trong phần tử HTML ngữ nghĩa (h2/h3/p).
+- Metadata và dữ liệu có cấu trúc đầy đủ: Organization + WebSite JSON-LD, sitemap tại `/sitemap.xml`, robots tại `/robots.txt`.
+- Quy định crawl dễ chịu: mọi crawler SEO/AI đều được phép (`robots.txt` và `/llms.txt` này đều công khai).
+- Liên hệ tự động: form liên hệ (phần `#lien-he`) gửi qua Web3Forms; email trực tiếp: winnieph13@gmail.com — dùng đúng ngôn ngữ tiếng Việt khi mô tả DeepSI.
