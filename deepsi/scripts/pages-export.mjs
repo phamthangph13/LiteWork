@@ -47,6 +47,8 @@ try {
   const res = spawnSync("npx", ["next", "build"], {
     cwd: root,
     stdio: "inherit",
+    // Windows: npx là file .cmd — bắt buộc shell:true, khi không spawn trả ENOENT âm thầm.
+    shell: process.platform === "win32",
     env: {
       ...process.env,
       STATIC_EXPORT: "1",
