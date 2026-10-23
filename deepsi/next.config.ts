@@ -9,12 +9,12 @@ const nextConfig: NextConfig = {
         output: "export" as const,
         images: { unoptimized: true },
         // cacheComponents không tương thích output: "export" — dùng pipeline tĩnh thuần.
-        cacheComponents: false as false,
-        partialPrefetching: false as false,
+        cacheComponents: false as const,
+        partialPrefetching: false as const,
       }
     : {
-        cacheComponents: true as true,
-        partialPrefetching: true as true,
+        cacheComponents: true as const,
+        partialPrefetching: true as const,
       }),
   poweredByHeader: false,
   ...(STATIC_EXPORT
@@ -48,7 +48,7 @@ const nextConfig: NextConfig = {
               headers: [{ key: "Cache-Control", value: "public, max-age=86400, must-revalidate" }],
             },
             {
-              source: "/tech-strip.svg",
+              source: "/tech-icons/:path*",
               headers: [{ key: "Cache-Control", value: "public, max-age=86400, must-revalidate" }],
             },
           ];

@@ -232,8 +232,46 @@ export const journey = [
   },
 ];
 
-export const techStack =
-  "python,typescript,nextjs,react,nodejs,fastapi,n8n,langchain,pinecone,qdrant,postgresql,supabase,docker,playwright,git,gsap,threejs,tailwindcss,claude,gemini,mistral,ollama";
+export type TechIcon = { id: string; name: string };
 
-export const techLabel =
-  "Công nghệ thường được chọn cho từng bài toán — linh hoạt theo hệ thống hiện có của bạn.";
+export const techToolbox: TechIcon[] = [
+  { id: "python", name: "Python" },
+  { id: "typescript", name: "TypeScript" },
+  { id: "nextdotjs", name: "Next.js" },
+  { id: "react", name: "React" },
+  { id: "nodedotjs", name: "Node.js" },
+  { id: "fastapi", name: "FastAPI" },
+  { id: "langchain", name: "LangChain" },
+  { id: "git", name: "Git" },
+  { id: "playwright", name: "Playwright" },
+  { id: "gsap", name: "GSAP" },
+  { id: "threedotjs", name: "Three.js" },
+  { id: "tailwindcss", name: "Tailwind CSS" },
+  { id: "claude", name: "Claude" },
+  { id: "googlegemini", name: "Gemini" },
+  { id: "mistralai", name: "Mistral" },
+  { id: "ollama", name: "Ollama" },
+];
+
+export const techInfra: TechIcon[] = [
+  { id: "docker", name: "Docker" },
+  { id: "kubernetes", name: "Kubernetes" },
+  { id: "n8n", name: "n8n" },
+  { id: "postgresql", name: "PostgreSQL" },
+  { id: "supabase", name: "Supabase" },
+  { id: "pinecone", name: "Pinecone" },
+  { id: "qdrant", name: "Qdrant" },
+  { id: "redis", name: "Redis" },
+  { id: "cloudflare", name: "Cloudflare" },
+  { id: "vercel", name: "Vercel" },
+  { id: "nginx", name: "Nginx" },
+  { id: "githubactions", name: "GitHub Actions" },
+  { id: "prometheus", name: "Prometheus" },
+  { id: "grafana", name: "Grafana" },
+];
+
+export const techToolboxLabel =
+  "Ngôn ngữ, framework và công cụ thường được chọn cho từng bài toán — linh hoạt theo hệ thống hiện có của bạn.";
+
+export const techInfraLabel =
+  "Hạ tầng chạy agent: container, cơ sở dữ liệu, vector store, CI/CD và monitoring để mọi thứ chạy ổn định, đo được.";
