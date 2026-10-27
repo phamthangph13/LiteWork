@@ -206,10 +206,17 @@ export const partners = [
     note: "Tài khoản bản quyền chính hãng giá tốt",
     tint: false,
   },
+  {
+    name: "Fansipan Group",
+    url: "https://fansipan-group.vn",
+    logo: "/partners/fansipan-group-mark.png",
+    note: "Công ty Cổ phần FANSIPAN GROUP — Cơ điện M&E, HVAC & tháp giải nhiệt",
+    tint: false,
+  },
 ];
 
 export const partnersNote =
-  "Hai đối tác hiện đang cùng DeepSI làm việc thật — thẻ trượt tự động, rê chuột để dừng lại và bấm để ghé thăm website của họ.";
+  "Ba đối tác hiện đang cùng DeepSI làm việc thật — thẻ trượt tự động, rê chuột để dừng lại và bấm để ghé thăm website của họ.";
 
 export const journey = [
   {

@@ -5,7 +5,7 @@
 ## Nội dung chính trên trang chủ
 
 - Giải pháp (phần `#gt-si`): tổng quan năng lực — DeepSI làm gì cho từng bài toán
-- Đối tác: Luméa (lumeavn.com) và ZuneF (zunef.com) — quan hệ hợp tác thực, dẫn link thật
+- Đối tác: Luméa (lumeavn.com), ZuneF (zunef.com) và Fansipan Group (fansipan-group.vn) — quan hệ hợp tác thực, dẫn link thật
 - Quy trình làm việc: 5 bước từ chạy thử tới bàn giao, định giá minh bạch (phần `#quy-trinh`)
 - Thử nghiệm: kịch bản agent chạy thật, xem pipeline dữ liệu (phần `#thu-nghiem`)
 - Ngành: 12 ngành doanh nghiệp đang phù hợp nhất với agent AI (phần `#nganh`)

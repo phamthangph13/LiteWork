@@ -16,7 +16,7 @@ const sections = [
   },
   {
     h: "Quyền sở hữu",
-    p: "Toàn bộ thương hiệu, hình ảnh, biểu tượng và nội dung hiển thị trên website thuộc về DeepSI trừ khi ghi chú khác. Logo của Luméa và ZuneF là tài sản của các bên tương ứng, chỉ dùng để minh họa quan hệ hợp tác.",
+    p: "Toàn bộ thương hiệu, hình ảnh, biểu tượng và nội dung hiển thị trên website thuộc về DeepSI trừ khi ghi chú khác. Logo của Luméa, ZuneF và Fansipan Group là tài sản của các bên tương ứng, chỉ dùng để minh họa quan hệ hợp tác.",
   },
   {
     h: "Giới hạn trách nhiệm",

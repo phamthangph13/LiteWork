@@ -17,6 +17,7 @@ const MARKDOWN = `# DeepSI — Giải pháp AI Agent cho doanh nghiệp
 
 - Luméa — lumeavn.com
 - ZuneF — zunef.com
+- Fansipan Group — fansipan-group.vn
 
 ## Liên hệ
 
