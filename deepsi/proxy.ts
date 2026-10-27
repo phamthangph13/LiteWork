@@ -13,6 +13,10 @@ const MARKDOWN = `# DeepSI — Giải pháp AI Agent cho doanh nghiệp
 - Tích hợp agent vào hệ thống hiện có (CRM, Google Workspace, hệ thống nội bộ)
 - Thiết kế, chạy thử, bàn giao theo từng bước nhỏ — định giá minh bạch
 
+## Hỏi đáp
+
+- AI Agent cho doanh nghiệp là gì, thời gian triển khai, bảo mật dữ liệu và chi phí: xem phần #hoi-dap tại ${SITE_URL}
+
 ## Đối tác
 
 - Luméa — lumeavn.com

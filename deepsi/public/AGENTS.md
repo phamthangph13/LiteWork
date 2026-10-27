@@ -8,7 +8,7 @@ DeepSI là studio tư vấn & triển khai AI Agent cho doanh nghiệp Việt Na
 
 ## Cấu trúc website
 
-- `/` — landing page một trang (tiếng Việt). Các phần: Giải pháp, Đối tác (Luméa lumeavn.com, ZuneF zunef.com, Fansipan Group fansipan-group.vn), Quy trình, Thử nghiệm, Ngành, Liên hệ. Navigation dùng anchor `#...`.
+- `/` — landing page một trang (tiếng Việt). Các phần: Giải pháp, Đối tác (Luméa lumeavn.com, ZuneF zunef.com, Fansipan Group fansipan-group.vn), Quy trình, Thử nghiệm, Ngành, Tiến trình, Hỏi đáp, Liên hệ. Navigation dùng anchor `#...`.
 - `/privacy` — chính sách bảo mật (tiếng Việt).
 - `/terms` — điều khoản sử dụng (tiếng Việt).
 - `/sitemap.xml`, `/robots.txt`, `/llms.txt`, `/manifest.webmanifest` — chuẩn kỹ thuật đầy đủ.

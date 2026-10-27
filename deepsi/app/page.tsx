@@ -11,6 +11,7 @@ import Partners from "@/components/sections/Partners";
 import EcoTicker from "@/components/sections/EcoTicker";
 import Journey from "@/components/sections/Journey";
 import TechStrip from "@/components/sections/TechStrip";
+import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import CursorDot from "@/components/ui/CursorDot";
@@ -41,6 +42,7 @@ export default function HomePage() {
         <Industries />
         <Journey />
         <TechStrip />
+        <Faq />
         <Contact />
       </main>
       <Footer />

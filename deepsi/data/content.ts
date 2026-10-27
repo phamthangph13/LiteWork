@@ -1,3 +1,5 @@
+export const SITE_LAST_MODIFIED = "2026-10-28";
+
 export const brand = {
   name: "DeepSI",
   tagline: "AI Agent Solutions",
@@ -29,6 +31,7 @@ export const navFooter = [
   { label: "Thử nghiệm", href: "#thu-nghiem" },
   { label: "Lĩnh vực", href: "#linh-vuc" },
   { label: "Tiến trình", href: "#tien-trinh" },
+  { label: "Hỏi đáp", href: "#hoi-dap" },
   { label: "Liên hệ", href: "#lien-he" },
 ];
 
@@ -217,6 +220,37 @@ export const partners = [
 
 export const partnersNote =
   "Ba đối tác hiện đang cùng DeepSI làm việc thật — thẻ trượt tự động, rê chuột để dừng lại và bấm để ghé thăm website của họ.";
+
+export const faqs = [
+  {
+    q: "AI Agent cho doanh nghiệp là gì?",
+    a: "AI Agent là hệ thống AI có thể hiểu yêu cầu, tra cứu dữ liệu, gọi công cụ và thực hiện một quy trình nghiệp vụ cụ thể — ví dụ trả lời chính sách nội bộ, tổng hợp đơn hàng hoặc tiếp nhận yêu cầu khách. Khác với chatbot chỉ trả lời theo kịch bản, AI Agent có phạm vi trách nhiệm, guardrails và log để vận hành thật.",
+  },
+  {
+    q: "DeepSI triển khai AI Agent trong bao lâu?",
+    a: "Thời gian tùy phạm vi. Một bản chạy thử cho một quy trình thường mất vài tuần; hệ thống nhiều bước và nhiều tích hợp có thể kéo dài hơn. DeepSI chia việc theo mảng nhỏ, có mốc kiểm chứng để bạn dừng hoặc mở rộng sau từng bước.",
+  },
+  {
+    q: "AI Agent có thay thế nhân viên không?",
+    a: "Không. DeepSI thiết kế theo hướng human-in-the-loop: agent xử lý phần lặp lại và đề xuất kết quả, con người duyệt ở các bước quan trọng. Mục tiêu là giảm việc thủ công và tăng tốc độ, không phải thay thế trách nhiệm nghiệp vụ.",
+  },
+  {
+    q: "Doanh nghiệp nhỏ có nên dùng AI Agent?",
+    a: "Có, nếu doanh nghiệp có một quy trình lặp lại đủ rõ và dữ liệu tương đối sẵn. Nên bắt đầu bằng một bài toán nhỏ, đo được — ví dụ trả lời câu hỏi nội bộ hoặc phân loại yêu cầu khách — rồi mở rộng khi đã có kết quả.",
+  },
+  {
+    q: "DeepSI tích hợp AI Agent với hệ thống nào?",
+    a: "DeepSI ưu tiên API-first: CRM, ERP, website, Zalo, email, Google Workspace, data lake hoặc hệ thống nội bộ. Phạm vi tích hợp được chốt trong bước khảo sát kỹ thuật để đảm bảo agent dùng đúng dữ liệu và quyền truy cập.",
+  },
+  {
+    q: "Chi phí triển khai AI Agent được tính thế nào?",
+    a: "DeepSI định phạm vi theo quy trình và mức độ tích hợp, báo giá minh bạch trước khi làm. Bạn có thể bắt đầu bằng một gói chạy thử nhỏ, sau đó mới quyết định mở rộng sang quy trình tiếp theo.",
+  },
+  {
+    q: "Dữ liệu doanh nghiệp có được bảo mật khi dùng AI Agent?",
+    a: "DeepSI thiết kế luồng dữ liệu theo nguyên tắc tối thiểu quyền truy cập, log đầy đủ và có thể triển khai trong hạ tầng doanh nghiệp. Phương án bảo mật cụ thể được thống nhất trong bước thiết kế giải pháp.",
+  },
+];
 
 export const journey = [
   {

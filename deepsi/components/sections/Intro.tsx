@@ -123,8 +123,8 @@ export default function Intro() {
               {"DEEPSI".split("").map((ch, i) => (
                 <motion.span
                   key={i}
-                  initial={{ opacity: 0, y: 24, rotate: -8 }}
-                  animate={{ opacity: 1, y: 0, rotate: 0 }}
+                  initial={{ y: 24, rotate: -8 }}
+                  animate={{ y: 0, rotate: 0 }}
                   transition={{ delay: 0.5 + i * 0.055, type: "spring", stiffness: 380, damping: 24 }}
                   className="inline-block"
                 >
@@ -140,9 +140,9 @@ export default function Intro() {
             />
             <motion.p
               className="mt-3 font-mono text-[11px] uppercase tracking-[0.3em] text-ink-soft sm:text-xs"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.05 }}
+              initial={{ y: 8 }}
+              animate={{ y: 0 }}
+              transition={{ delay: 1.05, duration: 0.4 }}
             >
               AI Agent Solutions
             </motion.p>

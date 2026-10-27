@@ -1,14 +1,18 @@
 import type { MetadataRoute } from "next";
 
-
 const base = "https://deepsi.space";
 
 const AI_CRAWLERS = [
   "GPTBot",
+  "OAI-SearchBot",
   "ChatGPT-User",
   "ClaudeBot",
+  "Claude-SearchBot",
   "PerplexityBot",
   "Google-Extended",
+  "Google-CloudVertexBot",
+  "Applebot",
+  "Applebot-Extended",
   "CCBot",
   "Bytespider",
   "Amazonbot",

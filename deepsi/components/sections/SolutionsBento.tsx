@@ -35,7 +35,7 @@ export default function SolutionsBento() {
         <SectionHeader
           index={1}
           label="Giải pháp AI Agent và tự động hóa quy trình"
-          title="Một agent tốt bắt đầu từ một bài toán được hiểu đúng."
+          title="Một AI Agent tốt bắt đầu từ một bài toán được hiểu đúng."
           desc="Mỗi mảnh dưới đây là một khối năng lực được lắp theo bài toán của bạn — không bán gói trọn đời, chỉ có giải pháp đúng phạm vi."
         />
         <Sticker kind="bot" rot={7} float="a" className="absolute -top-2 right-6 hidden w-20 lg:block xl:w-24" ariaHidden />

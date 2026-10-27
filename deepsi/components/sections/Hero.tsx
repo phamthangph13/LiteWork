@@ -63,7 +63,7 @@ export default function Hero() {
       <div className="relative mx-auto flex max-w-7xl flex-col justify-center px-5 pb-24 pt-[30svh] md:px-8">
         <Reveal variant="fade" duration={0.5}>
           <p className="mb-6 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-[0.24em] text-ink-soft">
-            <span className="inline-flex items-center gap-2 rounded-full border hairline bg-surface px-3 py-1">
+            <span className="inline-flex items-center gap-2 rounded-full border hairline bg-surface px-3 py-1 text-ink">
               <span className="relative flex size-1.5">
                 <span className="absolute inline-flex size-full animate-pulse-ring rounded-full bg-accent" />
                 <span className="relative inline-flex size-1.5 rounded-full bg-accent" />
@@ -81,7 +81,7 @@ export default function Hero() {
 
         <Reveal variant="clip" duration={0.85}>
           <h1 className="relative z-10 max-w-4xl font-display text-[clamp(2.5rem,7vw,4.8rem)] font-semibold leading-[1.02] tracking-tight text-balance">
-            Biến AI thành{" "}
+            Biến AI Agent thành{" "}
             <span className="relative inline-block">
               <span className="relative z-10">năng lực</span>
               <svg

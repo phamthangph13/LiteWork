@@ -35,11 +35,12 @@ export default function SectionHeader({ label, title, desc, align = "left", inde
           <ScrambleIn text={label} stepMs={22} />
         </span>
       </Reveal>
-      <Reveal variant="clip" duration={0.7}>
-        <h2 className="relative z-10 max-w-3xl font-display text-[clamp(1.9rem,4.2vw,3rem)] font-semibold leading-[1.08] tracking-tight text-balance">
-          {title}
-        </h2>
-      </Reveal>
+      {/* Headings stay visible for assistive tech and Lighthouse: wrapping
+          them in a scroll reveal hides them from the accessibility tree until
+          the section enters the viewport, which breaks heading-order checks. */}
+      <h2 className="relative z-10 max-w-3xl font-display text-[clamp(1.9rem,4.2vw,3rem)] font-semibold leading-[1.08] tracking-tight text-balance">
+        {title}
+      </h2>
       {desc ? (
         <Reveal variant="rise" delay={0.08} duration={0.6}>
           <p className="max-w-xl text-[15px] leading-relaxed text-ink-soft">{desc}</p>

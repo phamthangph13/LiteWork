@@ -105,7 +105,7 @@ export default function Workflow() {
               className="group relative flex w-[84vw] max-w-[430px] shrink-0 snap-center flex-col overflow-hidden rounded-2xl border hairline bg-surface p-6 shadow-card transition-shadow duration-500 hover:shadow-pop md:w-[30rem] md:p-8"
             >
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[64px] font-medium leading-none tracking-tighter text-accent/15 transition-colors duration-500 group-hover:text-accent/30">
+                <span className="font-mono text-[64px] font-medium leading-none tracking-tighter text-accent/60 transition-colors duration-500 group-hover:text-accent/80">
                   {step.no}
                 </span>
                 <span className="rounded-full border hairline px-3 py-1 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-soft">
